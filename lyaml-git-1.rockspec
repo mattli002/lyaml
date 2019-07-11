@@ -1,7 +1,7 @@
 local _MODREV, _SPECREV = 'git', '-1'
 
 package = 'lyaml'
-version = _MODREV .. _SPECREV
+version = 'git-1'
 
 description = {
    summary  = 'libYAML binding for Lua',
