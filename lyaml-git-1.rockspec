@@ -1,7 +1,7 @@
 local _MODREV, _SPECREV = 'git', '-1'
 
 package = 'lyaml'
-version = 'git-1'
+version = '6.2.3-1'
 
 description = {
    summary  = 'libYAML binding for Lua',
@@ -29,7 +29,10 @@ build = {
    type = 'command',
    build_command = '$(LUA) build-aux/luke'
       .. ' package="' .. package .. '"'
-      .. ' version="' .. _MODREV .. '"'
+      .. ' 
+      
+      
+      ="' .. _MODREV .. '"'
       .. ' PREFIX="$(PREFIX)"'
       .. ' CFLAGS="$(CFLAGS)"'
       .. ' LIBFLAG="$(LIBFLAG)"'
