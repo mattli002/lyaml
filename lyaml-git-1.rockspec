@@ -11,8 +11,8 @@ description = {
 }
 
 source = {
-   url = 'http://github.com/andersenq/lyaml/archive/v' .. _MODREV .. '.zip',
-   dir = 'lyaml-' .. _MODREV,
+   url = 'https://github.com/andersenq/lyaml.git',
+   dir = 'lyaml',
 }
 
 dependencies = {
@@ -49,11 +49,5 @@ build = {
    copy_directories = {'doc'},
 }
 
-if _MODREV == 'git' then
-   build.copy_directories = nil
 
-   source = {
-      url = 'https://github.com/andersenq/lyaml.git',
-   }
-end
 
