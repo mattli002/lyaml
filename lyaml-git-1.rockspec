@@ -53,7 +53,7 @@ if _MODREV == 'git' then
    build.copy_directories = nil
 
    source = {
-      url = 'git://github.com/andersenq/lyaml.git',
+      url = 'https://github.com/andersenq/lyaml.git',
    }
 end
 
