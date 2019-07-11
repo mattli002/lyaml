@@ -42,11 +42,11 @@ build = {
       .. ' YAML_INCDIR="$(YAML_INCDIR)"'
       .. ' YAML_LIBDIR="$(YAML_LIBDIR)"'
       ,
-   install_command = '$(LUA) build-aux/luke install --quiet'
+   install_command = '$(LUA) build-aux/luke install '
       .. ' INST_LIBDIR="$(LIBDIR)"'
       .. ' INST_LUADIR="$(LUADIR)"'
       ,
-   copy_directories = {'doc'},
+   -- copy_directories = {'doc'},
 }
 
 
