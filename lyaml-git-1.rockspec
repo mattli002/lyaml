@@ -11,7 +11,7 @@ description = {
 }
 
 source = {
-   url = 'http://github.com/gvvaughan/lyaml/archive/v' .. _MODREV .. '.zip',
+   url = 'http://github.com/andersenq/lyaml/archive/v' .. _MODREV .. '.zip',
    dir = 'lyaml-' .. _MODREV,
 }
 
@@ -53,7 +53,7 @@ if _MODREV == 'git' then
    build.copy_directories = nil
 
    source = {
-      url = 'git://github.com/gvvaughan/lyaml.git',
+      url = 'git://github.com/andersenq/lyaml.git',
    }
 end
 
