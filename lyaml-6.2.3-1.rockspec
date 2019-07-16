@@ -27,7 +27,7 @@ external_dependencies = {
 
 build = {
    type = 'command',
-   build_command = '$(LUA) build-aux/luke'
+   build_command = '$(LUA) build-aux/luke --verbose'
       .. ' package="' .. package .. '"'
       .. ' version="' .. _MODREV .. '"'      
       .. ' PREFIX="$(PREFIX)"'
